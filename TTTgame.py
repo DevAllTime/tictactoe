@@ -7,6 +7,7 @@ first_row = [None,None,None]
 second_row = [None,None,None]
 third_row = [None,None,None]
 
+#This function displays status
 def display_status():
     for i in first_row:
         print "%s |"%(i),
