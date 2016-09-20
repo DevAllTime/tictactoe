@@ -69,7 +69,6 @@ print "Welcome to the Tic Tac Toe Game!!\n"
 print "Please Enter the values accroding to"
 print "00,01,02|10,11,12|20,21,22"
 result = True
-#while(result):
 while(result):
     r_ow = raw_input("Enter the Row")
     c_ol = raw_input("Enter the Coloumn")
