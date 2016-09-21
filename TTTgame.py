@@ -70,10 +70,11 @@ print "Please Enter the values accroding to"
 print "00,01,02|10,11,12|20,21,22"
 result = True
 while(result):
-    r_ow = raw_input("Enter the Row")
-    c_ol = raw_input("Enter the Coloumn")
+    #r_ow = raw_input("Enter the Row")
+    #c_ol = raw_input("Enter the Coloumn")
+    Placment = raw_input("Enter the placment of element")
     i_nput = raw_input("Enter the input value")
-    setting_inputs(int(r_ow),int(c_ol),int(i_nput))
+    setting_inputs(int(Placment[0]),int(Placment[1]),int(i_nput))
     display_status()
     result = didyouloose()
     if(not result):
