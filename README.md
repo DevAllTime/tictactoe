@@ -1,2 +1,5 @@
 # tictactoe
-Simple tictactoe game in Python
+Interactive Simple TictacToe game in Python.
+Play, ENJOY!!
+
+
