@@ -19,6 +19,7 @@ def display_status():
 
 def setting_inputs(row,coloumn,valu):
     #input elements into the list & #Elements should not be replaced
+    #defining setting input
     if row == 0:
         if first_row[coloumn]== 1 or 0:
             print"YOU CANNOT REPLACE!!!\n"
